@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* CSS General */
+body {
+    font-size: 1.1em;
+    background-image: url(../img/huellas.png);
+}
+
+h2 {
+    font-family: 'Bebas Neue';
+    font-size: 3em;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.sub {
+    color: white;
+}
+
+.sub2 {
+    color: #3848a0;
+}
+
+h5 {
+    color: #3848a0;
+}
+/* Fin CSS General */
+
+/* Navbar */
+.navbar {
+    background-color: #1c214b;
+    font-family: 'Bebas Neue';
+    font-size: 1.3em;
+}
+
+.nav-link {
+    color: #a2e5de;
+}
+
+.nav-link:hover {
+    color: #4cccbd;
+}
+/* Fin Navbar */
+
+/* Carousel */
+.sub-carousel {
+    font-size: 1.3em;
+}
+
+.btn-carousel {
+    background-color: #1c214b;
+    color: #a2e5de;
+    font-family: 'Bebas Neue';
+    font-size: 1.3em;
+}
+
+.btn-carousel:hover {
+    background-color: #3848a0;
+    color: white;
+}
+/* Fin Carousel */
+
+/* Quiénes Somos */
+#nosotros {
+    background-color: #a2e5de;
+}
+
+#nosotros h2 {
+    color: #1c214b;
+}
+
+#nosotros p {
+    color: #1c214b;
+}
+/* Fin Quiénes Somos */
+
+/* Voluntariado */
+#voluntariado {
+    background-color: #1c214b;
+}
+
+#voluntariado h2 {
+    color: #a2e5de;
+}
+
+
+.btn-vol {
+    background-color: #a2e5de;
+    color: #1c214b;
+    font-family: 'Bebas Neue';
+    font-size: 1.3em;
+}
+
+.btn-vol:hover {
+    background-color: #4cccbd;
+    color: white;
+}
+/* Fin Voluntariado */
+
+/* Adoptar */
+#adoptar {
+    background-color: #a2e5de;
+}
+
+#adoptar h2 {
+    color: #1c214b;
+}
+
+.hover {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1em;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.hover img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.hover:hover img {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.btn-adop {
+    background-color: #1c214b;
+    color: #a2e5de;
+    font-family: 'Bebas Neue';
+    font-size: 1.3em;
+}
+
+.btn-adop:hover {
+    background-color: #3848a0;
+    color: white;
+}
+
+.texto-modal {
+    padding-top: 1em;
+    color: black;
+
+}
+/* Fin Adoptar */
+
+/* Ayudar */
+#ayudar {
+    background-color: #1c214b;
+}
+
+#ayudar h2 {
+    color: #a2e5de;
+}
+
+#ayudar button {
+    background-color: #a2e5de;
+    color: #1c214b;
+    font-family: 'Bebas Neue';
+    font-size: 1.7em;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+#ayudar button:hover {
+    background-color: #3848a0;
+    color: white;
+}
+/* Fin Ayudar */
+
+/* Contacto */
+#contacto {
+    background-color: #a2e5de;
+}
+
+#contacto h2 {
+    color: #1c214b;
+}
+/* Fin Contacto */
+
+/* Footer */
+footer {
+    background-color: #1c214b;
+}
+/* Fin Footer */
